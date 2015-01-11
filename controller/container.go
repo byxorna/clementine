@@ -10,9 +10,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/byxorna/clementine/model"
 	"github.com/citadel/citadel"
 	"github.com/gorilla/mux"
-	"github.ewr01.tumblr.net/gabe/clementine/model"
 )
 
 func destroyContainer(w http.ResponseWriter, r *http.Request) {

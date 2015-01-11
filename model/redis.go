@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"code.google.com/p/go-uuid/uuid"
+	"github.com/byxorna/clementine/config"
 	"github.com/garyburd/redigo/redis"
-	"github.ewr01.tumblr.net/gabe/clementine/config"
 )
 
 func NewRedisPool(host string, port int) *redis.Pool {

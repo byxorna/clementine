@@ -1,9 +1,9 @@
 package model
 
 import (
+	"github.com/byxorna/clementine/config"
 	"github.com/citadel/citadel"
 	"github.com/samalba/dockerclient"
-	"github.ewr01.tumblr.net/gabe/clementine/config"
 )
 
 // engine statuses

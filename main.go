@@ -4,8 +4,8 @@ import (
 	"flag"
 	"log"
 
-	"github.ewr01.tumblr.net/gabe/clementine/config"
-	"github.ewr01.tumblr.net/gabe/clementine/controller"
+	"github.com/byxorna/clementine/config"
+	"github.com/byxorna/clementine/controller"
 )
 
 var (

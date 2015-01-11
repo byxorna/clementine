@@ -1,7 +1,7 @@
 FROM google/golang
 MAINTAINER Gabe Conradi <gummybearx@gmail.com>
 
-ENV WORKDIR $GOPATH/src/github.ewr01.tumblr.net/gabe/clementine
+ENV WORKDIR $GOPATH/src/github.com/byxorna/clementine
 RUN mkdir -p $WORKDIR
 COPY . $WORKDIR
 WORKDIR $WORKDIR

@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 
+	conf "github.com/byxorna/clementine/config"
+	"github.com/byxorna/clementine/model"
 	cc "github.com/citadel/citadel/cluster"
 	"github.com/citadel/citadel/scheduler"
 	r "github.com/garyburd/redigo/redis"
-	conf "github.ewr01.tumblr.net/gabe/clementine/config"
-	"github.ewr01.tumblr.net/gabe/clementine/model"
 )
 
 var (

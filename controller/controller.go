@@ -3,8 +3,8 @@ package controller
 import (
 	"net/http"
 
+	"github.com/byxorna/clementine/config"
 	"github.com/gorilla/mux"
-	"github.ewr01.tumblr.net/gabe/clementine/config"
 )
 
 var (
