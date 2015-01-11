@@ -1,0 +1,10 @@
+{
+  "name":"tumblr/collins:latest",
+  "bind_ports": [
+    { "proto":"tcp",
+      "port":9000,
+      "container_port":9000
+    }
+  ],
+  "type": "multi"
+}

@@ -1,0 +1,9 @@
+{
+            "id": "boot2docker",
+            "addr": "https://192.168.59.103:2376",
+            "cpus": 4,
+            "memory": 32000,
+            "labels": [
+                "local"
+            ]
+        }

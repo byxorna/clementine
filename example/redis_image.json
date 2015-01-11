@@ -1,0 +1,10 @@
+{
+  "name":"redis:latest",
+  "bind_ports": [
+    { "proto":"tcp",
+      "port":6379,
+      "container_port":6379
+    }
+  ],
+  "type": "multi"
+}
